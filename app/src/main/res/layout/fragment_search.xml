@@ -19,7 +19,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/bg-hangang-map"/>
+                android:background="@drawable/bg_hangang_map"/>
         </ScrollView>
         <LinearLayout
             android:layout_width="match_parent"
@@ -35,7 +35,7 @@
                     <ImageView
                         android:layout_width="200dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/SeoulInkiFestival01"/>
+                        android:background="@drawable/seoulinkifestival01"/>
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -60,7 +60,7 @@
                     <ImageView
                         android:layout_width="200dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/SeoulInkiFestival01"/>
+                        android:background="@drawable/seoulinkifestival01"/>
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -85,7 +85,7 @@
                     <ImageView
                         android:layout_width="200dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/SeoulInkiFestival01"/>
+                        android:background="@drawable/seoulinkifestival01"/>
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -110,7 +110,7 @@
                     <ImageView
                         android:layout_width="200dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/SeoulInkiFestival01"/>
+                        android:background="@drawable/seoulinkifestival01"/>
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
