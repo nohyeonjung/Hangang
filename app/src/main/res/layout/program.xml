@@ -5,20 +5,21 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-
+    // 프로그램 이미지
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:background="@drawable/p_01"
         android:scaleType="centerInside"
-        android:layout_margin="7dp"
+        android:layout_margin="10dp"
         android:layout_weight="1"/>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:orientation="horizontal"
-        android:layout_weight="2">
+        android:layout_weight="2"
+        android:layout_margin="10dp">
 
         <TextView
             android:layout_width="wrap_content"
@@ -27,11 +28,13 @@
             android:textStyle="bold"
             android:textColor="#000000"/>
 
+        // 프로그램 레이아웃
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:orientation="vertical">
 
+            // 프로그램 제목
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -42,6 +45,7 @@
                 android:layout_marginTop="2dp"
                 android:layout_marginBottom="2dp"/>
 
+            // 프로그램 내용
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -87,14 +91,33 @@
                 android:layout_marginTop="2dp"
                 android:layout_marginBottom="5dp"/>
 
-            <TextView
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="| 참여방법 |"
-                android:textSize="16dp"
-                android:textColor="#083869"
-                android:layout_marginTop="2dp"
-                android:layout_marginBottom="2dp"/>
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="| 참여방법 |"
+                    android:textSize="16dp"
+                    android:textColor="#083869"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:layout_gravity="left"/>
+
+                // 사이트 바로가기 이미지 버튼
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="16dp"
+                    android:background="#0066b3"
+                    android:text="사이트 바로가기"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:layout_gravity="center|right"/>
+
+            </LinearLayout>
+
 
             <TextView
                 android:layout_width="match_parent"
